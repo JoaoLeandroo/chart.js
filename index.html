@@ -24,14 +24,14 @@
         let votos = [55, 220, 96, 28, 77, 115]
 
         new Chart(ctx, {
-          type: 'bar',
+          type: 'doughnut',
           data: {
             labels: paises,
             datasets: [{
               label: 'Países com mais Votos',
               data: votos,
               borderWidth: 1,
-              backgroundColor: "#c3c3c3"
+            //   backgroundColor: "#c3c3c3"
             }]
           },
           options: {
